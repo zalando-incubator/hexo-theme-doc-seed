@@ -3,11 +3,11 @@
 This project is a skeleton for a documentation website using [Hexo](https://hexo.io) and [hexo-stargate-doc theme](https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme).   
 You can use it to quickly bootstrap your documentation website.
 
-The seed contains the required structure and files to use Hexo and the theme, plus dummy content to show the usage of the main features.
+The seed contains the required structure and files to use Hexo and the theme, plus dummy content to show the usage of the main features of the theme.
 
 ## Getting Started
 
-To get started have a look first to the [requirements](https://pages.github.bus.zalan.do/stargate/hexo-stargate-doc-theme-site/getting-started.html#Requirements), then install the `hexo-cli` with:
+To get started have a look first to the [requirements](https://pages.github.bus.zalan.do/stargate/hexo-stargate-doc-theme-site/getting-started.html#Requirements), then install `hexo-cli` with:
 
 ```bash
 npm install -g hexo-cli
