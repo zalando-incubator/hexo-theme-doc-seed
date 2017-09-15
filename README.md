@@ -1,6 +1,3 @@
-title: hexo-stargate-doc-theme-seed
----
-
 # hexo-stargate-doc-theme-seed
 
 This project is a skeleton for a documentation website using [Hexo](https://hexo.io) and [hexo-stargate-doc theme](https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme).   
