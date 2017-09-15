@@ -1,0 +1,32 @@
+{
+  "logo": {
+    "text": "Hexo Stargate Doc Theme Seed",
+    "type": "link",
+    "path": "index.html"
+  },
+  "main": [
+    {
+      "text": "SWAGGER",
+      "type": "label"
+    },
+    {
+      "text": "UI",
+      "type": "link",
+      "path": "swagger/ui.html"
+    },
+    {
+      "text": "To HTML",
+      "type": "link",
+      "path": "swagger/to-html.html"
+    },
+    {
+      "text": "SUPPORT AND FEEDBACK",
+      "type": "label"
+    },
+    {
+      "text": "Raise an Issue on Github",
+      "type": "link",
+      "path": "https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"
+    }
+  ]
+}

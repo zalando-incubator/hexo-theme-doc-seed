@@ -1,0 +1,19 @@
+{
+  "name": "hexo-stargate-doc-theme-seed",
+  "version": "0.1.0-alpha",
+  "scripts": {
+    "postinstall": "ln -s ../node_modules/hexo-stargate-doc-theme ./themes/stargate-doc &>/dev/null || true"
+  },
+  "hexo": {
+    "version": "3.3.9"
+  },
+  "dependencies": {
+    "hexo": "^3.3.8",
+    "hexo-cli": "^1.0.3",
+    "hexo-renderer-ejs": "^0.2.0",
+    "hexo-renderer-less": "^0.2.0",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-server": "^0.2.1",
+    "hexo-stargate-doc-theme": "git+ssh://git@github.bus.zalan.do:stargate/hexo-stargate-doc-theme.git#0.1.0-alpha"
+  }
+}

@@ -1,0 +1,28 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: hexo-stargate-doc-theme-seed
+author: Team Stargate
+timezone: UTC
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+# url: https://hexo-stargate-doc-theme-seed.com
+# root: /
+
+# Writing
+relative_link: false
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: stargate-doc
+
+theme_config:
+  favicon: images/favicon.ico
+
+ignore:
+  - '**/themes/**/*(target|node_modules|packages|lib)'
+  - '**/.+(*)' # ignoring all dirs and files starting with dot (.git, .idea, ...)
