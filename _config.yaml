@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hexo-theme-doc
+title: hexo-theme-doc-seed
 author: Zalando Incubator
 timezone: UTC
 
@@ -17,11 +17,11 @@ relative_link: false
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: doc
+theme: ../node_modules/hexo-theme-doc
 
 theme_config:
   favicon: images/favicon.ico
 
 ignore:
-  - '**/themes/**/*(target|node_modules|packages|lib)'
-  - '**/.+(*)' # ignoring all dirs and files starting with dot (.git, .idea, ...)
+  # development only: ignore sub node_modules when `npm link hexo-theme-doc`
+  - '**/node_modules/**/*node_modules'
